@@ -1,0 +1,168 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "7.3"
+    }
+  },
+  "component" : {
+    "group" : "com.github.roborescue",
+    "module" : "rcrs-server",
+    "version" : "master-SNAPSHOT",
+    "attributes" : {
+      "org.gradle.status" : "integration"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "17",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "files" : [ {
+      "name" : "rcrs-server-master-SNAPSHOT.jar",
+      "url" : "rcrs-server-master-SNAPSHOT.jar",
+      "size" : 2120714,
+      "sha512" : "ee6eb98b4916d1ad141f869e90e3781337e038ebe27505bd6a2a33c8478a3f9a7e76f980bad269c50c3f391fed073235b0f2618121deb9dd9e8637263ce008ff",
+      "sha256" : "42e30bbcc9a83f9c8f6a4823ca4eeaa1c621775564ec833a8a1a86b258825414",
+      "sha1" : "920fe1ac29987b03c72926983c67845423020ec3",
+      "md5" : "60eaa808b6abef1b755874d759aef12e"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "17",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "com.google.code.gson",
+      "module" : "gson",
+      "version" : {
+        "requires" : "2.8.9"
+      }
+    }, {
+      "group" : "com.google.guava",
+      "module" : "guava",
+      "version" : {
+        "requires" : "31.0.1-jre"
+      }
+    }, {
+      "group" : "com.google.protobuf",
+      "module" : "protobuf-java",
+      "version" : {
+        "requires" : "3.19.1"
+      }
+    }, {
+      "group" : "com.google.protobuf",
+      "module" : "protobuf-java-util",
+      "version" : {
+        "requires" : "3.19.1"
+      }
+    }, {
+      "group" : "com.vividsolutions",
+      "module" : "jts",
+      "version" : {
+        "requires" : "1.13"
+      }
+    }, {
+      "group" : "jaxen",
+      "module" : "jaxen",
+      "version" : {
+        "requires" : "1.2.0"
+      }
+    }, {
+      "group" : "jfree",
+      "module" : "jfreechart",
+      "version" : {
+        "requires" : "1.0.13"
+      }
+    }, {
+      "group" : "log4j",
+      "module" : "log4j",
+      "version" : {
+        "requires" : "1.2.17"
+      }
+    }, {
+      "group" : "net.sf.trove4j",
+      "module" : "trove4j",
+      "version" : {
+        "requires" : "2.1.0"
+      }
+    }, {
+      "group" : "net.sourceforge.jsi",
+      "module" : "jsi",
+      "version" : {
+        "requires" : "1.0.0"
+      }
+    }, {
+      "group" : "org.dom4j",
+      "module" : "dom4j",
+      "version" : {
+        "requires" : "2.1.3"
+      }
+    }, {
+      "group" : "org.json",
+      "module" : "json",
+      "version" : {
+        "requires" : "20210307"
+      }
+    }, {
+      "group" : "org.jfree",
+      "module" : "jcommon",
+      "version" : {
+        "requires" : "1.0.24"
+      }
+    }, {
+      "group" : "org.jscience",
+      "module" : "jscience",
+      "version" : {
+        "requires" : "4.3.1"
+      }
+    }, {
+      "group" : "org.slf4j",
+      "module" : "slf4j-log4j12",
+      "version" : {
+        "requires" : "1.7.32"
+      }
+    }, {
+      "group" : "org.uncommons.maths",
+      "module" : "uncommons-maths",
+      "version" : {
+        "requires" : "1.2.2"
+      }
+    }, {
+      "group" : "org.tukaani",
+      "module" : "xz",
+      "version" : {
+        "requires" : "1.9"
+      }
+    }, {
+      "group" : "org.projectlombok",
+      "module" : "lombok",
+      "version" : {
+        "requires" : "latest.integration"
+      }
+    }, {
+      "group" : "org.apache.commons",
+      "module" : "commons-compress",
+      "version" : {
+        "requires" : "1.21"
+      }
+    } ],
+    "files" : [ {
+      "name" : "rcrs-server-master-SNAPSHOT.jar",
+      "url" : "rcrs-server-master-SNAPSHOT.jar",
+      "size" : 2120714,
+      "sha512" : "ee6eb98b4916d1ad141f869e90e3781337e038ebe27505bd6a2a33c8478a3f9a7e76f980bad269c50c3f391fed073235b0f2618121deb9dd9e8637263ce008ff",
+      "sha256" : "42e30bbcc9a83f9c8f6a4823ca4eeaa1c621775564ec833a8a1a86b258825414",
+      "sha1" : "920fe1ac29987b03c72926983c67845423020ec3",
+      "md5" : "60eaa808b6abef1b755874d759aef12e"
+    } ]
+  } ]
+}

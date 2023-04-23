@@ -1,2 +1,2 @@
 # files
-for copy and paste
+copy and paste
